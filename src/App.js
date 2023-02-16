@@ -1,16 +1,8 @@
-import React from 'react';
-import { Provider as ReduxProvider } from 'react-redux';
-
-import { HomeView } from './views';
-import './App.css';
-import store from './redux';
+import React from "react";
+import { HomeView } from "./components";
 
 function App() {
-  return (
-    <ReduxProvider store={store}>
-      <HomeView />
-    </ReduxProvider>
-  );
+  return <HomeView />;
 }
 
 export default App;

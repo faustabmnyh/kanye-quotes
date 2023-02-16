@@ -5,9 +5,11 @@ import PersonalQuoteView from "./PersonalQuoteView";
 
 export default function HomeView() {
   return (
-    <main style={{ marginLeft: "5%", marginRight: "5%", marginTop: "10vh" }}>
+    <main style={{ marginLeft: "5%", marginRight: "5%" }}>
       <div style={{ marginBottom: "10vh" }}>
-        <a href="https://kanye.rest">API SITE</a>
+        <a href="https://kanye.rest" style={{ color: "#90e0ef" }}>
+          API SITE
+        </a>
       </div>
       <KanyeQuoteView />
       <PersonalQuoteView />
